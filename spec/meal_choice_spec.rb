@@ -15,3 +15,7 @@ describe '#meal_choice' do
     meal_choice("broccoli", "macaroni")
   end
 end
+
+def meal_choice(meal="meat")
+  meal
+end
